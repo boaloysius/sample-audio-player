@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 import Layout from "./pages/layout";
 import Audio from "./pages/audio";
+import Video from "./pages/video";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,6 +16,7 @@ root.render(
         <Route path="/" element={<Layout />}>
           <Route index element={<Audio />} />
           <Route path="audio" element={<Audio />} />
+          <Route path="video" element={<Video />} />
         </Route>
       </Routes>
     </BrowserRouter>
