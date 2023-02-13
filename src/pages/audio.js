@@ -38,7 +38,7 @@ function Audio() {
             </div>
           ))}
         </div>
-        <div className="player">
+        <div className="audioPlayer">
           <AudioPlayer autoPlay src={audioFiles[current]} />
         </div>
       </div>
