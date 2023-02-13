@@ -11,6 +11,12 @@ const Layout = () => {
           <li>
             <Link to="/video">Video</Link>
           </li>
+          <li>
+            <Link to="/upload-video">Upload Video</Link>
+          </li>
+          <li>
+            <Link to="/upload-audio">Upload Audio</Link>
+          </li>
         </ul>
       </nav>
 
